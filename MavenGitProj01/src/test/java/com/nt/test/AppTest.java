@@ -33,5 +33,14 @@ public class AppTest
 		  assertEquals(actual,expected);
 		  
 	  }
+	@Test
+	  public void teatWithEqual()
+	  {
+		  Arithmetic ar=new Arithmetic();
+		  int actual=10;
+		  int expected=ar.sum(5,5);
+		  assertEquals(actual,expected);
+		  
+	  }
   
 }
