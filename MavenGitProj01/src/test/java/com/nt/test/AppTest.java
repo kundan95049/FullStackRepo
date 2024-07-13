@@ -24,5 +24,14 @@ public class AppTest
 		  assertEquals(actual,expected);
 		  
 	  }
+	@Test
+	  public void teatWithZero()
+	  {
+		  Arithmetic ar=new Arithmetic();
+		  int actual=0;
+		  int expected=ar.sum(-10,10);
+		  assertEquals(actual,expected);
+		  
+	  }
   
 }
