@@ -51,5 +51,14 @@ public class AppTest
 		  assertEquals(actual,expected);
 		  
 	  }
+	@Test
+	  public void teatWithmixnumber()
+	  {
+		  Arithmetic ar=new Arithmetic();
+		  int actual=30;
+		  int expected=ar.sum(40,-10);
+		  assertEquals(actual,expected);
+		  
+	  }
   
 }
