@@ -46,8 +46,8 @@ public class AppTest
 	  public void teatWithsubstract()
 	  {
 		  Arithmetic ar=new Arithmetic();
-		  int actual=20;
-		  int expected=ar.sum(10,10);
+		  int actual=-200;
+		  int expected=ar.sum(-100,-100);
 		  assertEquals(actual,expected);
 		  
 	  }
